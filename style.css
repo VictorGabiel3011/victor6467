@@ -44,7 +44,7 @@
   height: 300px; /* Define a altura do container */
   padding: 20px; /* Define a margem interna do container */
   margin: 20px auto; /* Define a margem externa do container (esquerda, direita) */
-  background-color: lightblue; /* Define a cor de fundo do container */
+  background-color: rgba(173, 216, 230, 0.5); /* lightblue com 50% de opacidade */
   border: 1px solid black; /* Define uma borda */
         } 
 
