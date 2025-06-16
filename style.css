@@ -3,19 +3,30 @@
 
         h1 {
             text-align: center;
+            color: #ffffff;
+            width: 20%;
+            margin: 20px auto;
         }
 
         h2 {
             text-align: center;
+             color: white;
         }
 
         p {
             text-align: center;
+             color: white;
         }
-        
+
+        ul {
+            text-align: left;
+            color: white;
+        }
         nav {
             background-color: #333;
-            padding: 20px;
+            padding: 15px;
+            width: 100%;
+            margin: 25px auto;
         }
 
         nav ul {
@@ -40,17 +51,26 @@
         }
         
         .container {
-  width: 80%; /* Define a largura do container */
-  height: 400px; /* Define a altura do container */
-  padding: 20px; /* Define a margem interna do container */
-  margin: 20px auto; /* Define a margem externa do container (esquerda, direita) */
-  background-color: rgba(173, 216, 230, 0.5); /* lightblue com 50% de opacidade */
-  border: 1px solid black; /* Define uma borda */
+  width: 70%; 
+  height: 800px; 
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #09bd93;
+  border: 1px solid black;
         } 
 
 body {
-  background-image: url("esporte.jpg"); /* Substitua pelo caminho correto da sua imagem */
-  background-size: cover; /* Para a imagem cobrir toda a tela, ou use contain para manter proporções */
-  background-repeat: no-repeat; /* Para evitar que a imagem seja repetida */
-  background-position: center; /* Para centralizar a imagem */
+  background-image: url("esportes.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
+
+        .nav-link {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #black;
+            transition: transform 0.3s ease;
+        }
