@@ -5,35 +5,40 @@
     <title>Victor G. e Luiz H.</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        window.onload = function() {
+        window.onload = function () {
             alert("Bem-vindo ao site sobre esportes!");
-        };
 
+            const btnBeneficios = document.getElementById("btn-beneficios");
+
+            btnBeneficios.addEventListener("mouseover", function () {
+                this.style.transform = "scale(1.2)";
+            });
+
+            btnBeneficios.addEventListener("mouseout", function () {
+                this.style.transform = "scale(1)";
+            });
+        };
     </script>
 </head>
 <body>
 
     <nav>
-        <ul>
-            <li><a href="benefícios.html">Benefícios</a></li>
-            <li><a href="#"></a></li>
-        </ul>
+            <h1><a href="#">Inicio</a></h1>
+            <h1><a href="benefícios.html" id="btn-beneficios" class="nav-link">Benefícios</a></h1>
     </nav>
 
     <div class="container">
-        <h1>Título no container</h1>
-
+        <h1>Inicio</h1>
         <h1>Os esportes:</h1>
-        <p>A prática de esportes é uma das atividades mais completas para o corpo e a mente.<br>
-        Seja por lazer, competição ou saúde, o esporte desempenha um papel fundamental na qualidade de vida das pessoas.<br>
-        Ele promove disciplina, fortalece vínculos sociais e ajuda no desenvolvimento físico e emocional desde a infância até a vida adulta.</p>
-
-        <p>Texto introdutório sobre os benefícios dos esportes.</p>
-
-        <h2>Quais os benefícios dos esportes?</h2>
-
-        <h2>Uma imagem dos esportes</h2>
-
+           <h2>Texto introdutório sobre os benefícios dos esportes.</h2> 
+              <p>A prática de esportes é uma das atividades mais completas para o corpo e a mente.<br>
+                Seja por lazer, competição ou saúde, o esporte desempenha um papel fundamental na qualidade de vida das pessoas.
+                Ele<br> promove disciplina, fortalece vínculos sociais e ajuda no desenvolvimento físico e emocional desde a infância até a vida adulta.</p>  
+        
+           <h2>Quais os benefícios dos esportes?</h2>
+              <p class="paragrafo-justificado">De modo geral, desenvolver o hábito de praticar atividade física é importante, pois ela influencia na nossa saúde em diferentes<br> aspectos. Sob essa perspectiva, os benefícios dos esportes são claros não apenas no âmbito físico, mas também melhoram a concentração,<br> a estabilidade mental, emocional e promovem a sociabilização.</p>
+           <h2>Uma imagem dos esportes<br> corrida de 100 metros</h2>
+        <img src="victor30.jpg" width="700" height="350">
     </div>
 
 </body>
